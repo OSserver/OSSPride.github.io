@@ -1,0 +1,94 @@
+body {margin:0; font-family: Helvetica}
+
+.main {
+    color: #dddddd;
+    width: 50%;
+    border-radius: 25px;
+    border: 30px black;
+    padding: 25px;
+    background-color: #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.maina {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.main a:link {
+    font-weight: bold;
+    border-radius: 25px;
+    float: left;
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 100%;
+    border-top: 10px;
+}
+.main a:visited {
+    color: #dddddd;
+    text-decoration: none;
+}
+.main a:hover {
+    background: #dddddd;
+    color: #333333;
+}
+.main a:active {
+    background: #dddddd;
+    color: #333333;
+}
+
+.main p1 {
+    font-weight: bold;
+    border-radius: 25px;
+    float: left;
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 100%;
+    border-top: 10px;
+}
+
+.main a {
+    border-radius: 25px;
+    display: inline-block;
+    color: #dddddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    margin-top: 15px;
+    background: #5d5d5d;
+
+}
+
+.main a:hover {
+    background: #dddddd;
+    color: #333333;
+}
+
+.portait {
+    padding: 12px;
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.logo {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
