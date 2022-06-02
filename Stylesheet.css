@@ -2,7 +2,7 @@ body {margin:0; font-family: Helvetica}
 
 .main {
     color: #dddddd;
-    width: 50%;
+    width: 60%;
     border-radius: 25px;
     border: 30px black;
     padding: 25px;
@@ -91,6 +91,14 @@ body {margin:0; font-family: Helvetica}
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    margin-top: 20px;
 }
 
 .button {
