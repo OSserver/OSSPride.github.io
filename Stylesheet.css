@@ -92,3 +92,11 @@ body {margin:0; font-family: Helvetica}
     margin-left: auto;
     margin-right: auto;
 }
+
+.button {
+    display: block;
+    width: 2.5%;
+    border-radius: 12px;
+    background-color: #dddddd;
+    padding: 5px;
+}
