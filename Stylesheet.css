@@ -11,6 +11,7 @@ body {margin:0; font-family: Helvetica}
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
+    overflow:auto;
 }
 
 .maina {
@@ -18,6 +19,14 @@ body {margin:0; font-family: Helvetica}
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    overflow:auto;
+}
+.mainb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow:auto;
 }
 
 .main a:link {
@@ -32,6 +41,11 @@ body {margin:0; font-family: Helvetica}
     font-size: 100%;
     border-top: 10px;
 }
+
+#myDIV {
+    height: 500px;
+}
+
 .main a:visited {
     color: #dddddd;
     text-decoration: none;
