@@ -12,6 +12,7 @@ body {margin:0; font-family: Helvetica}
     margin-right: auto;
     margin-top: 75px;
     overflow:auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .maina {
@@ -92,7 +93,7 @@ body {margin:0; font-family: Helvetica}
 }
 
 .portait {
-    padding: 12px;
+    padding-right: 12px;
     display: inline-block;
     width: 200px;
     margin-left: auto;
@@ -109,10 +110,15 @@ body {margin:0; font-family: Helvetica}
 
 .flex-container {
     display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flex-container > div {
     margin-top: 20px;
+    padding: 12px;
+    width: auto;
 }
 
 .button {
@@ -121,4 +127,12 @@ body {margin:0; font-family: Helvetica}
     border-radius: 12px;
     background-color: #dddddd;
     padding: 5px;
+}
+
+.flag {
+    width: 23px;
+    display: block;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 2px;
 }
